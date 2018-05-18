@@ -37,7 +37,7 @@ public class Miniquiz2 {
           {
             j=1;
             while (j<=n) {
-                if (i==1 || i==n || (j==4 && i<n) || (j==1 && i>=n) || (i==2*n-1))
+                if (i==1 || i==n || (j==n && i<n) || (j==1 && i>=n) || (i==2*n-1))
                 { 
                     System.out.print ("*");
                 }
