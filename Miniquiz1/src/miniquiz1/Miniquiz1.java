@@ -19,7 +19,7 @@ public class Miniquiz1 {
     public static void main(String[] args) {
     
         int total, gaji = 0, tunjangan = 0, potongan = 0;
-    String nama, nomorinduk,golongan,gol;
+    String nama, nomorinduk, gol;
         
         Scanner input=new Scanner(System.in); 
         
